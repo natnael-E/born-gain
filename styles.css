@@ -1,0 +1,96 @@
+body{
+    margin:0px;
+    padding: 10%;
+    padding-left: 5%;
+    font-size: large;
+    
+}
+.contanier{
+    display: gred;
+  grid-template-columns:1fr:
+  
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.left-side {
+    display: flex;
+    color: white;
+    size: 220ch;
+
+}
+.right-side{
+    color: white;
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+.nav-link-wrapper {      
+     height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+} 
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+
+}
+.nav-link-wrapper:hover a{
+    color:black;
+}
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr; 
+}
+
+}
+h1{ color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p1{ 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3ch;
+}
+h2{
+    color: green;
+}
+h3{
+    color: green;
+    font-size: 111%;
+}
+p2{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+s1{
+    padding-left: 30%;
+}
+p3{
+    color:maroon;
+    size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p4{
+    color: rgb(13, 147, 224)
+}
+p5{
+    color: gray;
+    padding: left 50px;px
+}
+p2. img{
+    display: grid;
+}
+p6{
+    color: green;
+}
